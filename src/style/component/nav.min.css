@@ -1,0 +1,1 @@
+.pages{display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;position:fixed;right:0;height:calc(100vh - 72px)}.pages div a{display:block;border-radius:50%;background-color:#cbcbcb;margin:0.5rem;width:20px;height:20px}.pages div .active{background-color:#313bac}

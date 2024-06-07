@@ -1,0 +1,85 @@
+.about {
+  background-color: #edf2f8;
+}
+
+.about .container {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about .container .title h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about .container .title h1 span {
+  color: #313bac;
+}
+
+.about .container .experiences {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .container .experiences .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .container .experiences .top div {
+  width: 370px;
+  margin: 2rem 4rem;
+}
+
+.about .container .experiences .top div img {
+  border-radius: 15px;
+}
+
+.about .container .experiences .top div h3 {
+  margin-top: 20px;
+  font-size: 1.75rem;
+  text-align: left;
+  font-weight: 800;
+}
+
+.about .container .experiences .top div p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6b7688;
+}
+
+.about .container .experiences .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .container .experiences .bottom div {
+  width: 370px;
+  margin: 2rem 4rem;
+}
+
+.about .container .experiences .bottom div img {
+  border-radius: 15px;
+}
+
+.about .container .experiences .bottom div h3 {
+  margin-top: 20px;
+  font-size: 1.75rem;
+  text-align: left;
+  font-weight: 800;
+}
+
+.about .container .experiences .bottom div p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6b7688;
+}

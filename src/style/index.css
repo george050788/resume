@@ -1,0 +1,364 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* li {
+  list-style: none;
+}
+
+.header {
+  display: fixed;
+  width: 100%;
+  background-color: rgba(237, 242, 248, 0.5);
+}
+
+.header .container {
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.header .container .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .container .logo h3 {
+  color: #000000;
+}
+
+.header .container .navbar {
+  width: 100%;
+}
+
+.header .container .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .container .navbar ul li {
+  font-size: 1.75rem;
+  margin: 0 1rem;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  height: calc(100vh - 72px);
+}
+
+.pages div a {
+  display: block;
+  border-radius: 50%;
+  background-color: #cbcbcb;
+  margin: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.pages div .active {
+  background-color: #313bac;
+}
+
+.social {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: fixed;
+  height: calc(100vh - 72px);
+  left: 0;
+}
+
+.social div {
+  width: 70px;
+  height: 70px;
+  margin: 0.5rem 0;
+  border-radius: 50%;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.social div:hover {
+  background-color: #313bac;
+}
+
+.social div:hover img {
+  filter: invert(100%);
+}
+
+.home {
+  display: flex;
+  height: calc(100vh - 72px);
+  background-image: url("../../image/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.home .content {
+  padding: 4rem 2rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .content .left {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home .content .left .name {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.home .content .left .name div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .content .left .name div h2 {
+  font-size: 1.75rem;
+  color: #6b7688;
+}
+
+.home .content .left .name div h1 {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.home .content .left .experience {
+  margin-top: 3rem;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.home .content .left .experience p {
+  font-size: 1.75rem;
+  color: #6b7688;
+  line-height: 1.5;
+}
+
+.home .content .center {
+  height: 100%;
+  background-image: url("../../image/profilebg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home .content .center img {
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
+.home .content .right {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.home .content .right div {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .content .right div:nth-child(2), .home .content .right div:nth-child(4) {
+  width: 150px;
+  height: 150px;
+}
+
+.home .content .right div:nth-child(3) {
+  width: 180px;
+  height: 180px;
+}
+
+.about {
+  background-color: #edf2f8;
+}
+
+.about .container {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about .container .header h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about .container .header h1 span {
+  color: #313bac;
+}
+
+.about .container .experiences {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .container .experiences .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .container .experiences .top div {
+  width: 370px;
+  margin: 2rem 4rem;
+}
+
+.about .container .experiences .top div img {
+  border-radius: 15px;
+}
+
+.about .container .experiences .top div h3 {
+  margin-top: 20px;
+  font-size: 1.75rem;
+  text-align: left;
+  font-weight: 800;
+}
+
+.about .container .experiences .top div p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6b7688;
+}
+
+.about .container .experiences .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .container .experiences .bottom div {
+  width: 370px;
+  margin: 2rem 4rem;
+}
+
+.about .container .experiences .bottom div img {
+  border-radius: 15px;
+}
+
+.about .container .experiences .bottom div h3 {
+  margin-top: 20px;
+  font-size: 1.75rem;
+  text-align: left;
+  font-weight: 800;
+}
+
+.about .container .experiences .bottom div p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6b7688;
+}
+
+.work {
+  background-color: #edf2f8;
+}
+
+.work .container {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work .container .header h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.work .container .header h1 span {
+  color: #313bac;
+}
+
+.work .container .nav {
+  margin: 4rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work .container .nav li {
+  border-radius: 0.85rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  margin: 0.5rem;
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+.work .container .nav li:hover {
+  background-color: #313bac;
+  color: #fff;
+}
+
+.work .container .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work .container .project div {
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  align-items: center;
+  background-color: #fff;
+}
+
+.work .container .project div img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.work .container .project div h4 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 3rem;
+}
+
+.work .container .project div p {
+  margin-top: 10px;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: #6b7688;
+}

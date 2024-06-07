@@ -1,0 +1,91 @@
+.contact {
+  background-color: #fff;
+}
+
+.contact .container {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .container .title {
+  background-color: #fff;
+}
+
+.contact .container .title h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.contact .container .contact-info {
+  display: flex;
+  margin: 4em 2rem 2rem;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.contact .container .contact-info div {
+  display: flex;
+  background-color: #fef4f5;
+  border-radius: 10px;
+  margin: 1rem 0;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contact .container .contact-info div img {
+  margin: 0 0.7rem;
+}
+
+.contact .container .contact-info div p {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: #6b7688;
+}
+
+.contact .container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem;
+  flex-direction: column;
+  width: 60%;
+}
+
+.contact .container form div {
+  width: 100%;
+  background-color: #edf2f8;
+  border-radius: 10px;
+  margin: 0.75rem 0;
+}
+
+.contact .container form div:last-child {
+  height: 200px;
+}
+
+.contact .container form div input {
+  border: none;
+  border-radius: 7px;
+  background-color: #edf2f8;
+  padding: 0.95rem;
+  font-size: 1.75rem;
+  color: #313bac;
+  line-height: 1.5;
+  width: 100%;
+  outline: none;
+}
+
+.contact .container button {
+  background-color: #313bac;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
