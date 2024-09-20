@@ -100,7 +100,7 @@
 .home {
   display: flex;
   height: calc(100vh - 72px);
-  background-image: url("../../image/background.png");
+  background-image: url('../../image/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -160,7 +160,7 @@
 
 .home .content .center {
   height: 100%;
-  background-image: url("../../image/profilebg.svg");
+  background-image: url('../../image/profilebg.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -187,7 +187,8 @@
   align-items: center;
 }
 
-.home .content .right div:nth-child(2), .home .content .right div:nth-child(4) {
+.home .content .right div:nth-child(2),
+.home .content .right div:nth-child(4) {
   width: 150px;
   height: 150px;
 }

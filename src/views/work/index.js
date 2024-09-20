@@ -98,12 +98,12 @@ export default function Work () {
             <h1>My Creative <span>Portfolio</span> Section</h1>
           </div>
           <div className='nav'>
-            <li onClick={handleclickHTML}>HTML</li>
-            <li onClick={handleclickHTML}>CSS</li>
-            <li onClick={handleclickJavaScript}>Javascript</li>
-            <li onClick={handleclickReact}>ReactJs</li>
-            <li onClick={handleclickReact}>Redux</li>
-            <li onClick={handleclickNode}>NodeJs</li>
+            <li onClick={handleclickHTML}>Web Developer</li>
+            {/* <li onClick={handleclickHTML}>CSS</li> */}
+            <li onClick={handleclickJavaScript}>Frontend Developer</li>
+            <li onClick={handleclickReact}>React Developer</li>
+            {/* <li onClick={handleclickReact}>Redux</li> */}
+            <li onClick={handleclickNode}>FullStack Developer</li>
             <li onClick={handleclickALL}>All</li>
           </div>
           <div className='project'>
@@ -153,7 +153,7 @@ export default function Work () {
               </div>
               <h4>salinaka-ecommerce</h4>
               <p>Buying eyewear should leave you happy and good-looking, with money in your pocket. Glasses, sunglasses, and contacts—we've got your eyes covered.</p>
-              <div className='tool'>NodeJs</div>
+              <div className='tool'>ReactJs</div>
             </div>
             <div className='portfolio'>
               <div className='img-container'>
@@ -169,7 +169,7 @@ export default function Work () {
               </div>
               <h4>solelysneat.vercel.app</h4>
               <p>Sneat - Material Design React Admin Dashboard Template - is the most developer friendly & highly customizable Admin Dashboard Template based on MUI v5.</p>
-              <div className='tool'>ReactJs</div>
+              <div className='tool'>NodeJs</div>
             </div>
           </div>
 

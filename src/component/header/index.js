@@ -11,8 +11,8 @@ export default function Header () {
       <div className='header'>
         <div className='container'>
           <div className='logo'>
-            <img src={solelylogo} alt="" width={180} height={40} />
-            <h3>Solely</h3>
+
+            <h3>Chih Yu Chu</h3>
           </div>
           <div className='navbar'>
             <ul>

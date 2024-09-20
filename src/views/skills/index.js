@@ -31,30 +31,6 @@ export default function Skills () {
               <div className='flex'>
                 <div className='skill-list'>
                   <div>
-                    <img src={node} alt="" width={75} height={75} />
-                  </div>
-                  <p>NodeJS</p>
-                </div>
-                <div className='skill-list'>
-                  <div>
-                    <img src={less} alt="" width={75} height={75} />
-                  </div>
-                  <p>less</p>
-                </div>
-                <div className='skill-list'>
-                  <div>
-                    <img src={git} alt="" width={75} height={75} />
-                  </div>
-                  <p>git</p>
-                </div>
-                <div className='skill-list'>
-                  <div>
-                    <img src={bs} alt="" width={75} height={75} />
-                  </div>
-                  <p>bootstrap5</p>
-                </div>
-                <div className='skill-list'>
-                  <div>
                     <img src={html} alt="" width={75} height={75} />
                   </div>
                   <p>HTML</p>
@@ -79,9 +55,9 @@ export default function Skills () {
                 </div>
                 <div className='skill-list'>
                   <div>
-                    <img src={ts} alt="" width={75} height={75} />
+                    <img src={react} alt="" width={75} height={75} />
                   </div>
-                  <p>Typescript</p>
+                  <p>React</p>
                 </div>
                 <div className='skill-list'>
                   <div>
@@ -91,9 +67,33 @@ export default function Skills () {
                 </div>
                 <div className='skill-list'>
                   <div>
-                    <img src={react} alt="" width={75} height={75} />
+                    <img src={node} alt="" width={75} height={75} />
                   </div>
-                  <p>React</p>
+                  <p>NodeJS</p>
+                </div>
+                <div className='skill-list'>
+                  <div>
+                    <img src={less} alt="" width={75} height={75} />
+                  </div>
+                  <p>less</p>
+                </div>
+                <div className='skill-list'>
+                  <div>
+                    <img src={git} alt="" width={75} height={75} />
+                  </div>
+                  <p>git</p>
+                </div>
+                <div className='skill-list'>
+                  <div>
+                    <img src={bs} alt="" width={75} height={75} />
+                  </div>
+                  <p>bootstrap5</p>
+                </div>
+                <div className='skill-list'>
+                  <div>
+                    <img src={ts} alt="" width={75} height={75} />
+                  </div>
+                  <p>Typescript</p>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import icon2 from '../../image/icon2.png'
 import icon3 from '../../image/icon3.png'
 import icon4 from '../../image/icon4.png'
 import icon5 from '../../image/icon5.png'
+import george from '../../image/george.png'
 
 export default function Home () {
 
@@ -39,12 +40,12 @@ export default function Home () {
               <p>WEB DEVELOPER</p>
               <p>FRONTEND ENGINEER</p>
               <p>REACT NATIVE DEVELOPER</p>
-              <p>BACKEND ENGINEER</p>
+              {/* <p>BACKEND ENGINEER</p> */}
               <p>FULLSTACK DEVELOPER</p>
             </div>
           </div>
           <div className='center'>
-            <img src={john} alt="" />
+            <img src={george} alt="" width={559} height={683} />
           </div>
           <div className='right'>
             <div>

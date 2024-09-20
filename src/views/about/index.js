@@ -28,22 +28,22 @@ export default function About () {
                 <p>I am a fullstack developer with a passion for building beautiful and function web applications</p>
               </div>
               <div>
-                <img src={image1} alt="" width={370} height={320} />
+                <img src={image2} alt="" width={370} height={320} />
                 <h3>WEB DEVELOPER</h3>
                 <p>I am a web developer with a passion for building beautiful and function web applications</p>
               </div>
               <div>
-                <img src={image2} alt="" width={370} height={320} />
+                <img src={image3} alt="" width={370} height={320} />
                 <h3>REACT NATIVE DEVELOPER</h3>
                 <p>I am a react native developer with a passion for building beautiful and function web applications</p>
               </div>
             </div>
             <div className='bottom'>
-              <div>
+              {/* <div>
                 <img src={image3} alt="" width={370} height={320} />
                 <h3>BACKEND DEVELOPER</h3>
                 <p>I am a backend developer with a passion for building beautiful and function web applications</p>
-              </div>
+              </div> */}
               <div>
                 <img src={image4} alt="" width={370} height={320} />
                 <h3>FRONTEND DEVELOPER</h3>
