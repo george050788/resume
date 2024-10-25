@@ -100,10 +100,10 @@ export default function Skills () {
             <div className='right'>
               <div className='flex'>
                 <div className='exp'>
-                  <h4 className='current'>2024-Current</h4>
+                  <h4 className='current'>2023-Current</h4>
                   <div>
-                    <h3>Operations Supervisor</h3>
-                    <p>Longstar Healthpro Inc</p>
+                    <h3>Web Developer</h3>
+                    <p>Maxwell International Corporation</p>
                   </div>
                 </div>
                 <div className='exp'>
