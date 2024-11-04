@@ -100,19 +100,19 @@ export default function Skills () {
             <div className='right'>
               <div className='flex'>
                 <div className='exp'>
-                  <h4 className='current'>2023-Current</h4>
+                  <h4 className='current'>2022-Current</h4>
                   <div>
-                    <h3>Web Developer</h3>
+                    <h3>Full Stack Developer</h3>
                     <p>Maxwell International Corporation</p>
                   </div>
                 </div>
-                <div className='exp'>
+                {/* <div className='exp'>
                   <h4>2022-2023</h4>
                   <div>
                     <h3>Dispatch</h3>
                     <p>W&L Logistics Inc</p>
                   </div>
-                </div>
+                </div> */}
                 <div className='exp'>
                   <h4>2018-2022</h4>
                   <div>
