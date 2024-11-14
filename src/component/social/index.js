@@ -4,7 +4,7 @@ import linkedin from '../../image/linkedin.svg'
 export default function Social () {
 
   const tolinkedin = () => {
-    window.open('https://www.linkedin.com/in/chu-george-a2224a323/')
+    window.open('https://www.linkedin.com/in/chih-yu-chu-a2224a323/')
   }
   const togithub = () => {
     window.open('https://github.com/george050788')
